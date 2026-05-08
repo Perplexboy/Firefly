@@ -7,6 +7,13 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    // "target": "ESNext",
+    /*"module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "baseUrl": ".",*/
     "strictNullChecks": true,
     "allowJs": false,
     "declaration": true,
@@ -16,34 +23,15 @@
       }
     ],
     "paths": {
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@assets/*": [
-        "src/assets/*"
-      ],
-      "@constants/*": [
-        "src/constants/*"
-      ],
-      "@utils/*": [
-        "src/utils/*"
-      ],
-      "@i18n/*": [
-        "src/i18n/*"
-      ],
-      "@layouts/*": [
-        "src/layouts/*"
-      ],
-      "@/*": [
-        "src/*"
-      ]
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/assets/*"],
+      "@constants/*": ["src/constants/*"],
+      "@utils/*": ["src/utils/*"],
+      "@i18n/*": ["src/i18n/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@/*": ["src/*"]
     }
   },
-  "include": [
-    ".astro/types.d.ts",
-    "src/**/*"
-  ],
-  "exclude": [
-    "dist"
-  ]
+  "include": [".astro/types.d.ts", "src/**/*"],
+  "exclude": ["dist"]
 }
