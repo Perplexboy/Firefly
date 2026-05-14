@@ -50,7 +50,7 @@ export const spineModelConfig: SpineModelConfig = {
 		],
 		// 点击时随机显示的文字消息
 		clickMessages: [
-			"你好呀！我是流萤~",
+			"你好呀！我是Perplexboy~",
 			"今天也要加油哦！✨",
 			"想要一起去看星空吗？🌟",
 			"记得要好好休息呢~",
@@ -117,7 +117,7 @@ export const live2dModelConfig: Live2DModelConfig = {
 		enabled: true,
 		// 点击时随机显示的文字消息，motions 和 expressions 将从模型 JSON 文件中自动读取
 		clickMessages: [
-			"你好！我是Miku~",
+			"你好！我是Aaron Wu~",
 			"有什么需要帮助的吗？",
 			"今天天气真不错呢！",
 			"要不要一起玩游戏？",

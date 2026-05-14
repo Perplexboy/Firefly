@@ -11,7 +11,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInNavbar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -48,14 +48,174 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 2. 或者直接填入歌词字符串内容
 	// lrc: "[00:00.00]歌词内容...",
 	local: {
-		playlist: [
-			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
-				lrc: "",
-			},
-		],
-	},
+    playlist: [
+        {
+            name: "Friend",
+            artist: "玉置浩二",
+            url: "/assets/music/Friend-玉置浩二.flac",
+            cover: "/assets/music/cover/玉置浩二-Friend.png",
+            lrc: "",
+        },
+        // 添加新歌：
+        {
+            name: "1973",
+            artist: "James Blunt",
+            url: "/assets/music/1973-James Blunt.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/James Blunt-1973.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+        {
+            name: "Always coming back",
+            artist: "ONE OK ROCK",
+            url: "/assets/music/Always coming back-ONE OK ROCK",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/ONE OK ROCK-Always coming back.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+        {
+            name: "Brave Love, TIGA (PIANO VERSION)",
+            artist: "矢野立美",
+            url: "/assets/music/Brave Love, TIGA (PIANO VERSION)-矢野立美.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/矢野立美-Brave Love, TIGA (PIANO VERSION).png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+        {
+            name: "Hotel California",
+            artist: "Eagles",
+            url: "/assets/music/Hotel California-Eagles.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Eagles-Hotel California.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+        {
+            name: "No Woman, No Cry (1975 - Live At The Lyceum, London)-Bob Marley & The Wailers",
+            artist: "Bob Marley & The Wailers",
+            url: "/assets/music/No Woman, No Cry (1975 - Live At The Lyceum, London)-Bob Marley & The Wailers.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Bob Marley-No Woman, No Cry (1975 - Live At The Lyceum, London).png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "Set Fire to the Rain",
+            artist: "Adele",
+            url: "/assets/music/Set Fire to the Rain-Adele.m4a",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Adele-Set Fire to the Rain.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "Should It Matter",
+            artist: "Sissel",
+            url: "/assets/music/Should It Matter-Sissel.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Sissel-Should It Matter.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "The Left Panel",
+            artist: "Buckethead",
+            url: "/assets/music/The Left Panel-Buckethead.mp3",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Buckethead-The Left Panel.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "Wonderful Tonight",
+            artist: "Eric Clapton",
+            url: "/assets/music/Wonderful Tonight-Eric Clapton.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Eric Clapton-Wonderful Tonight.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "不让我的眼泪陪我过夜",
+            artist: "齐秦",
+            url: "/assets/music/不让我的眼泪陪我过夜-齐秦.wav",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/齐秦-不让我的眼泪陪我过夜.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "黃昏",
+            artist: "羅文",
+            url: "/assets/music/黃昏-羅文.wav",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/羅文-黃昏.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "记事本",
+            artist: "陈慧琳",
+            url: "/assets/music/记事本-陈慧琳.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/陈慧琳-记事本.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "寂靜的天空",
+            artist: "HAYA",
+            url: "/assets/music/寂靜的天空-HAYA.wav",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/HAYA-寂靜的天空.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "煎熬",
+            artist: "李佳薇",
+            url: "/assets/music/煎熬-李佳薇.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/李佳薇-煎熬.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "夢醒時分",
+            artist: "陳淑樺",
+            url: "/assets/music/夢醒時分-陳淑樺.dsf",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/陳淑樺-夢醒時分.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "迷途羔羊",
+            artist: "张震岳 & 大渊(顽童MJ116)",
+            url: "/assets/music/迷途羔羊-张震岳 & 大渊(顽童MJ116).flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/张震岳-迷途羔羊.jpg",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "日落大道",
+            artist: "梁博",
+            url: "/assets/music/日落大道-梁博.wav",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/梁博-日落大道.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "涛声依旧",
+            artist: "毛宁",
+            url: "/assets/music/涛声依旧-毛宁.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/毛宁-涛声依旧.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "心ゆくまで",
+            artist: "梅沢富美男",
+            url: "/assets/music/心ゆくまで-梅沢富美男.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/梅沢富美男-心ゆくまで.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+		// 添加新歌：
+		{
+            name: "一人静",
+            artist: "姬神",
+            url: "/assets/music/一人静-姬神.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/姬神-一人静.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+    ],
+},
 };
