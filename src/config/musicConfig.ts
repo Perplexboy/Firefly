@@ -68,7 +68,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         {
             name: "Always coming back",
             artist: "ONE OK ROCK",
-            url: "/assets/music/Always coming back-ONE OK ROCK",       // 放 public/assets/music/ 下
+            url: "/assets/music/Always coming back-ONE OK ROCK.flac",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/ONE OK ROCK-Always coming back.png",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -93,7 +93,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
             name: "No Woman, No Cry (1975 - Live At The Lyceum, London)-Bob Marley & The Wailers",
             artist: "Bob Marley & The Wailers",
             url: "/assets/music/No Woman, No Cry (1975 - Live At The Lyceum, London)-Bob Marley & The Wailers.flac",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/Bob Marley-No Woman, No Cry (1975 - Live At The Lyceum, London).png",  // 放 public/assets/music/cover/ 下
+            cover: "/assets/music/cover/Bob Marley-No Woman, No Cry (1975 - Live At The The Lyceum, London).png",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
@@ -141,7 +141,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
             name: "黃昏",
             artist: "羅文",
             url: "/assets/music/黃昏-羅文.wav",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/羅文-黃昏.png",  // 放 public/assets/music/cover/ 下
+            cover: "/assets/music/cover/罗文-黄昏.png",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
@@ -212,7 +212,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "一人静",
             artist: "姬神",
-            url: "/assets/music/一人静-姬神.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/一人静-姬神.wav",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/姬神-一人静.png",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
