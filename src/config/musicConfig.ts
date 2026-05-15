@@ -66,10 +66,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         },
 		// 添加新歌：
         {
-            name: "Always coming back",
+            name: "Stand Out Fit In",
             artist: "ONE OK ROCK",
-            url: "/assets/music/Always coming back-ONE OK ROCK.flac",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/ONE OK ROCK-Always coming back.png",  // 放 public/assets/music/cover/ 下
+            url: "/assets/music/Stand Out Fit In-ONE OK ROCK.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/ONE OK ROCK-Stand Out Fit In.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
@@ -90,10 +90,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         },
 		// 添加新歌：
         {
-            name: "No Woman, No Cry (1975 - Live At The Lyceum, London)-Bob Marley & The Wailers",
-            artist: "Bob Marley & The Wailers",
-            url: "/assets/music/No Woman, No Cry (1975 - Live At The Lyceum, London)-Bob Marley & The Wailers.flac",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/Bob Marley-No Woman, No Cry (1975 - Live At The The Lyceum, London).png",  // 放 public/assets/music/cover/ 下
+            name: "No Woman, No Cry",
+            artist: "Bob Marley",
+            url: "/assets/music/No Woman, No Cry-Bob Marley.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Bob Marley-No Woman, No Cry.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
@@ -149,14 +149,14 @@ export const musicPlayerConfig: MusicPlayerConfig = {
             name: "记事本",
             artist: "陈慧琳",
             url: "/assets/music/记事本-陈慧琳.flac",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/陈慧琳-记事本.png",  // 放 public/assets/music/cover/ 下
+            cover: "/assets/music/cover/陈慧琳-记事本.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
 		{
             name: "寂靜的天空",
             artist: "HAYA",
-            url: "/assets/music/寂靜的天空-HAYA.wav",       // 放 public/assets/music/ 下
+            url: "/assets/music/寂靜的天空-HAYA.flac",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/HAYA-寂靜的天空.png",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -170,10 +170,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         },
 		// 添加新歌：
 		{
-            name: "夢醒時分",
-            artist: "陳淑樺",
-            url: "/assets/music/夢醒時分-陳淑樺.dsf",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/陳淑樺-夢醒時分.png",  // 放 public/assets/music/cover/ 下
+            name: "梦醒时分",
+            artist: "陈淑桦",
+            url: "/assets/music/梦醒时分-陈淑桦.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/陈淑桦-梦醒时分.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
@@ -189,7 +189,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
             name: "日落大道",
             artist: "梁博",
             url: "/assets/music/日落大道-梁博.wav",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/梁博-日落大道.png",  // 放 public/assets/music/cover/ 下
+            cover: "/assets/music/cover/梁博-日落大道.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
@@ -214,6 +214,38 @@ export const musicPlayerConfig: MusicPlayerConfig = {
             artist: "姬神",
             url: "/assets/music/一人静-姬神.wav",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/姬神-一人静.png",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+        // 添加新歌：
+		{
+            name: "明天你是否依然爱我",
+            artist: "童安格",
+            url: "/assets/music/明天你是否依然爱我-童安格.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/童安格-明天你是否依然爱我.jpg",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+        // 添加新歌：
+		{
+            name: "一场游戏一场梦",
+            artist: "王杰",
+            url: "/assets/music/一场游戏一场梦-王杰.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/王杰-一场游戏一场梦.jpg",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+        // 添加新歌：
+		{
+            name: "Haunt U (Prod.Mysticphonk)",
+            artist: "Lil Peep",
+            url: "/assets/music/Haunt U (Prod.Mysticphonk)-Lil Peep.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Lil Peep-Haunt U (Prod.Mysticphonk).jpg",  // 放 public/assets/music/cover/ 下
+            lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+        },
+        // 添加新歌：
+		{
+            name: "江上清风游",
+            artist: "变奏的梦想",
+            url: "/assets/music/江上清风游-变奏的梦想.flac",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/变奏的梦想-江上清风游.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
     ],
