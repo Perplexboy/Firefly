@@ -93,5 +93,5 @@
     "postcss-nesting": "^13.0.2",
     "tailwindcss": "^4.2.4"
   },
-  "packageManager": "pnpm@11.1.2"
+  "packageManager": "pnpm@11.1.3"
 }
