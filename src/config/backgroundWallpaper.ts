@@ -54,9 +54,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"assets/images/MobileWallpaper/street.avif",
-			"assets/images/MobileWallpaper/cat.avif",
-			"assets/images/MobileWallpaper/littlegirl.avif",
+			"assets/images/MobileWallpaper/mScen1.avif",
 		],
 	},
 	// 横幅壁纸和全屏壁纸共享配置
