@@ -60,7 +60,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         {
             name: "1973",
             artist: "James Blunt",
-            url: "/assets/music/1973-James Blunt.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/1973-James Blunt.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/James Blunt-1973.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/1973-James Blunt.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -68,7 +68,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         {
             name: "Stand Out Fit In",
             artist: "ONE OK ROCK",
-            url: "/assets/music/Stand Out Fit In-ONE OK ROCK.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/Stand Out Fit In-ONE OK ROCK.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/ONE OK ROCK-Stand Out Fit In.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/Stand Out Fit In-ONE OK ROCK.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -84,7 +84,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         {
             name: "Hotel California",
             artist: "Eagles",
-            url: "/assets/music/Hotel California-Eagles.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/Hotel California-Eagles.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/Eagles-Hotel California.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/Hotel California-Eagles.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -100,7 +100,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "Set Fire to the Rain",
             artist: "Adele",
-            url: "/assets/music/Set Fire to the Rain-Adele.m4a",       // 放 public/assets/music/ 下
+            url: "/assets/music/Set Fire to the Rain-Adele.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/Adele-Set Fire to the Rain.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/Set Fire to the Rain-Adele.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -132,7 +132,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "不让我的眼泪陪我过夜",
             artist: "齐秦",
-            url: "/assets/music/不让我的眼泪陪我过夜-齐秦.wav",       // 放 public/assets/music/ 下
+            url: "/assets/music/不让我的眼泪陪我过夜-齐秦.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/齐秦-不让我的眼泪陪我过夜.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/不让我的眼泪陪我过夜-齐秦.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -140,7 +140,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "黃昏",
             artist: "羅文",
-            url: "/assets/music/黃昏-羅文.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/黃昏-羅文.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/罗文-黄昏.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/黃昏-羅文.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -148,7 +148,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "记事本",
             artist: "陈慧琳",
-            url: "/assets/music/记事本-陈慧琳.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/记事本-陈慧琳.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/陈慧琳-记事本.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/记事本-陈慧琳.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -156,7 +156,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "寂靜的天空",
             artist: "HAYA",
-            url: "/assets/music/寂靜的天空-HAYA.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/寂靜的天空-HAYA.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/HAYA-寂靜的天空.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/寂靜的天空-HAYA.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -164,7 +164,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "煎熬",
             artist: "李佳薇",
-            url: "/assets/music/煎熬-李佳薇.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/煎熬-李佳薇.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/李佳薇-煎熬.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/煎熬-李佳薇.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -172,7 +172,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "梦醒时分",
             artist: "陈淑桦",
-            url: "/assets/music/梦醒时分-陈淑桦.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/梦醒时分-陈淑桦.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/陈淑桦-梦醒时分.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/梦醒时分-陈淑桦.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -180,7 +180,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "迷途羔羊",
             artist: "张震岳 & 大渊(顽童MJ116)",
-            url: "/assets/music/迷途羔羊-张震岳 & 大渊(顽童MJ116).flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/迷途羔羊-张震岳 & 大渊(顽童MJ116).mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/张震岳-迷途羔羊.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/迷途羔羊-张震岳 & 大渊(顽童MJ116).lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -188,7 +188,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "日落大道",
             artist: "梁博",
-            url: "/assets/music/日落大道-梁博.wav",       // 放 public/assets/music/ 下
+            url: "/assets/music/日落大道-梁博.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/梁博-日落大道.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/日落大道-梁博.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -196,7 +196,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "涛声依旧",
             artist: "毛宁",
-            url: "/assets/music/涛声依旧-毛宁.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/涛声依旧-毛宁.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/毛宁-涛声依旧.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/涛声依旧-毛宁.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -204,7 +204,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "心ゆくまで",
             artist: "梅沢富美男",
-            url: "/assets/music/心ゆくまで-梅沢富美男.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/心ゆくまで-梅沢富美男.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/梅沢富美男-心ゆくまで.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/心ゆくまで-梅沢富美男.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -212,7 +212,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "一人静",
             artist: "姬神",
-            url: "/assets/music/一人静-姬神.wav",       // 放 public/assets/music/ 下
+            url: "/assets/music/一人静-姬神.flac",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/姬神-一人静.png",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/一人静-姬神.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
@@ -220,7 +220,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		{
             name: "明天你是否依然爱我",
             artist: "童安格",
-            url: "/assets/music/明天你是否依然爱我-童安格.flac",       // 放 public/assets/music/ 下
+            url: "/assets/music/明天你是否依然爱我-童安格.mp3",       // 放 public/assets/music/ 下
             cover: "/assets/music/cover/童安格-明天你是否依然爱我.jpg",  // 放 public/assets/music/cover/ 下
             lrc: "/assets/music/lrc/明天你是否依然爱我-童安格.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },

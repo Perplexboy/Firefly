@@ -33,9 +33,9 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true, // 是否启用
 	},
 	{
-		title: "Perpl Docs",
+		title: "firefly Docs",
 		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Perplexboy主题模板文档",
+		desc: "firefly主题模板文档",
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
 		weight: 9,
