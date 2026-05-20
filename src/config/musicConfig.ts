@@ -84,9 +84,9 @@ export const musicPlayerConfig: MusicPlayerConfig = {
         {
             name: "Hotel California",
             artist: "Eagles",
-            url: "/assets/music/Hotel California-Eagles.mp3",       // 放 public/assets/music/ 下
-            cover: "/assets/music/cover/Eagles-Hotel California.png",  // 放 public/assets/music/cover/ 下
-            lrc: "/assets/music/lrc/Hotel California-Eagles.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
+            url: "/assets/music/Hotel California (2013 Remaster)-Eagles.mp3",       // 放 public/assets/music/ 下
+            cover: "/assets/music/cover/Eagles-Hotel California (2013 Remaster).jpg",  // 放 public/assets/music/cover/ 下
+            lrc: "/assets/music/lrc/Hotel California (2013 Remaster)-Eagles.lrc",  // 可选：歌词文件路径如 "/assets/music/lrc/歌词.lrc"，或直接写 LRC 字符串
         },
 		// 添加新歌：
         {
