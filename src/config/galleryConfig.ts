@@ -15,11 +15,11 @@ export const galleryConfig: GalleryConfig = {
 		// 每添加一个数组项就相当于添加了一个相册，记得在 public/gallery/ 目录下创建对应的子目录并放入图片
 		{
 			id: "perplexboy-2026",
-			name: "人面桃花",
+			name: "wallhaven-pictures",
 			description: "银烛秋光冷画屏，轻罗小扇扑流萤。",
-			location: "植物大战僵尸2",
+			location: "wallhaven.cc",
 			date: "2026-05-14",
-			tags: ["植物大战僵尸2", "雨石"],
+			tags: ["sceneries", "anime"],
 		},
 	],
 

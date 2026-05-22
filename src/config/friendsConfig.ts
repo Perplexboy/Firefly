@@ -25,22 +25,22 @@ export const friendsConfig: FriendLink[] = [
 	{
 		title: "虚室生白",
 		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
+			"https://weavatar.com/avatar/a18e749af04087af407052a276f2dba5be231de47444d28756f646290ee26494",
 		desc: "我们必须知道，我们必将知道。",
-		siteurl: "https://blog.perplexboy.com",
-		tags: ["Blog"],
+		siteurl: "https://image.perplexboy.com",
+		tags: ["Image"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
-	{
-		title: "firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
-		weight: 9,
-		enabled: true,
-	},
+	//{
+	//	title: "firefly Docs",
+	//	imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
+	//	desc: "firefly主题模板文档",
+	//	siteurl: "https://docs-firefly.cuteleaf.cn",
+	//	tags: ["Docs"],
+	//	weight: 9,
+	//	enabled: true,
+	//},
 	{
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
