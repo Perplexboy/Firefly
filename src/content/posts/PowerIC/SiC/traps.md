@@ -2,7 +2,7 @@
 title: 半导体材料中的缺陷
 published: 2025-01-01
 description: 简单描述半导体材料中缺陷在Sentaurus TCAD工具中的写法
-image: ./cover.jpg
+image: ../PowerICImages/cover.jpg
 tags: [半导体, TCAD]
 category: SentaurusTCAD
 draft: false
