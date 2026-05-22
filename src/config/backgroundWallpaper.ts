@@ -50,11 +50,21 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			"assets/images/DesktopWallpaper/Scen7.avif",
 			"assets/images/DesktopWallpaper/Scen8.avif",
 			"assets/images/DesktopWallpaper/Scen9.avif",
+			"assets/images/DesktopWallpaper/Scen10.avif",
+			"assets/images/DesktopWallpaper/Scen11.avif",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
 			"assets/images/MobileWallpaper/mScen1.avif",
+			"assets/images/MobileWallpaper/mScen2.avif",
+			"assets/images/MobileWallpaper/mScen3.avif",
+			"assets/images/MobileWallpaper/mScen4.avif",
+			"assets/images/MobileWallpaper/mScen5.avif",
+			"assets/images/MobileWallpaper/mScen6.avif",
+			"assets/images/MobileWallpaper/mScen7.avif",
+			"assets/images/MobileWallpaper/mScen8.avif",
+			"assets/images/MobileWallpaper/mScen9.avif",
 		],
 	},
 	// 横幅壁纸和全屏壁纸共享配置
@@ -105,15 +115,15 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			},
 			text: {
 				// 桌面端要显示的来源文本
-				desktop: "Pixiv - 晚晚喵",
+				desktop: "Wallhaven - Photo",
 				// 移动端要显示的来源文本
-				mobile: "Pixiv - KiraraShss",
+				mobile: "Wallhaven - Picture",
 			},
 			url: {
 				// 桌面端原始艺术品或艺术家页面的 URL 链接
-				desktop: "https://www.pixiv.net/users/108801776",
+				desktop: "https://wallhaven.cc/",
 				// 移动端原始艺术品或艺术家页面的 URL 链接
-				mobile: "https://www.pixiv.net/users/42715864",
+				mobile: "https://wallhaven.cc/",
 			},
 		},
 		// 导航栏配置
